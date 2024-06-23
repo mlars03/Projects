@@ -1,0 +1,139 @@
+h1{
+    font-family: honk;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2{
+    font-family: 'titillium web';
+    font-size: 30px;
+    color: red;
+}
+
+h3{
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.page-links{
+    font-family: 'Titillium Web';
+}
+
+.page-links ul li{
+    display: inline-block;
+}
+
+#blue{
+    background-color: blue;
+    color: #FFFF00;
+}
+
+#red{
+    background-color: red;
+    color: #00FFFF;
+}
+
+#green{
+    background-color: green;
+    color: #ff8fff;
+}
+
+#yellow{
+    background-color: yellow;
+    color: blue;
+}
+
+#cyan{
+    background-color: cyan;
+    color: red;
+}
+
+#pink{
+    background-color: #ff8fff;
+    color: green;
+}
+
+.color_name{
+    font-family: 'titllium web';
+}
+
+.code{
+    font-family: 'vt323';
+    font-size: 20px;
+}
+
+.colors{
+    border: 1px solid black;
+    margin: 20px 40px;
+    padding: 0% 2%;
+}
+
+.colors ul{
+    display: inline-block;
+    width:30%;
+    height: 80px;
+    text-align: center;
+    list-style-type: none;
+    padding: 1%;
+}
+
+.colors ul:hover{
+    width: 32%;
+    height: 84px;
+}
+
+.fonts{
+    border: 1px solid black;
+    margin: 20px 40px;
+    padding: 0% 2%;
+}
+
+.fonts .font{
+    display: inline-block;
+    width: 45%
+}
+
+.fonts p{
+    font-size: 22px;
+}
+
+#honk{
+    font-family: 'Honk';
+}
+
+#sacramento{
+    font-family: 'Sacramento';
+}
+
+#vt323{
+    font-family: 'VT323';
+}
+
+#titillium{
+    font-family: 'Titillium Web';
+}
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+h3{
+    font-size: 23;
+}
+
+.text-styles{
+    border: 1px solid black;
+    margin: 20px 40px;
+    padding: 0% 2%;
+}
+
+#signature{
+    font-family: 'Sacramento';
+    font-size: 16px;
+    text-align: center;
+}

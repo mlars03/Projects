@@ -1,0 +1,119 @@
+* {
+    font-family: Helvetica, sans-serif;
+    background-color: black;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+h2{
+    font-size: 30px;
+}
+
+.logo {
+    margin: 9.5px 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+header ul li {
+    text-decoration: underline;
+    margin-left: 9px;
+    font-size: 22px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1ddrkmr*_ga*ODExNDYzMjY0NC4xNzE1MjYxMjQ5*_ga_3LRZM6TM9L*MTcxNjczNzY3MC40MS4xLjE3MTY3Mzc2NzcuNTMuMC4w);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mission h4,
+.mission h2 {
+    margin: 0 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.tea-of-month {
+    width: 1000px;
+}
+
+.image-group img {
+    height: 200px;
+    width: 300px;
+}
+
+.image-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.image-group h4 {
+    margin: 10px 0;
+}
+
+.image-container{
+    margin: 0 10px;
+}
+
+.locations-image{
+    height: 500px;
+    width: 1200px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1s6eels*_ga*ODExNDYzMjY0NC4xNzE1MjYxMjQ5*_ga_3LRZM6TM9L*MTcxNjczNzY3MC40MS4xLjE3MTY3Mzc2NzcuNTMuMC4w);
+}
+
+.locations-image h2{
+    background-color: transparent;
+    padding-top: 50px;
+    margin-bottom: 15px;
+}
+
+.locations{
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+    width: 300px;  
+    border-left: 20px solid rgba(0,0,0,0);
+    border-right: 20px solid rgba(0,0,0,0);
+    background-color: transparent;
+    opacity: 1;
+}
+
+.location p, .location h3{
+    margin: 0;
+    padding: 10px 0;
+    opacity: 1;
+}
+footer{
+    display: inline-block;
+    text-align: left;
+}

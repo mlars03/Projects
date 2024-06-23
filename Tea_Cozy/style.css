@@ -1,0 +1,154 @@
+/* Define CSS Variables */
+:root {
+    --font-family: Helvetica, sans-serif;
+    --background-color: black;
+    --text-color: seashell;
+    --highlight-color: seashell;
+    --opacity: 0.9;
+}
+
+* {
+    font-family: Helvetica, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    opacity: var(--opacity);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Centered Text for Specific Sections */
+body, header, .mission, .tea-of-month, .image-group, .contacts {
+    text-align: center;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid var(--highlight-color);
+}
+
+.logo {
+    margin: 9.5px 10px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+
+header ul li {
+    text-decoration: underline;
+    margin-left: 9px;
+    font-size: 22px;
+}
+
+/* Main Content Styles */
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Mission Section */
+.mission {
+    height: 700px;
+    width: 1200px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*1ddrkmr*_ga*ODExNDYzMjY0NC4xNzE1MjYxMjQ5*_ga_3LRZM6TM9L*MTcxNjczNzY3MC40MS4xLjE3MTY3Mzc2NzcuNTMuMC4w);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mission h2,
+.mission h4 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+/* Tea of the Month Section */
+.tea-of-month {
+    width: 1000px;
+}
+
+/* Image Group Styles */
+.image-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.image-group img {
+    height: 200px;
+    width: 300px;
+}
+
+.image-container {
+    margin: 10px;
+}
+
+.image-group h4 {
+    margin: 10px 0;
+}
+
+/* Locations Section */
+.locations-image {
+    height: 500px;
+    width: 1200px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1s6eels*_ga*ODExNDYzMjY0NC4xNzE1MjYxMjQ5*_ga_3LRZM6TM9L*MTcxNjczNzY3MC40MS4xLjE3MTY3Mzc2NzcuNTMuMC4w);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.locations-image h2 {
+    background-color: transparent;
+    padding-top: 50px;
+    margin-bottom: 15px;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 0 20px;
+    background-color: transparent;
+    opacity: 1;
+}
+
+.location p, .location h3 {
+    margin: 0;
+    padding: 10px 0;
+    opacity: 1;
+}
+
+/* Footer Styles */
+footer {
+    text-align: left;
+    padding: 10px;
+}
+
+/* Headings */
+h2 {
+    font-size: 30px;
+}
+
+/* Contacts Section */
+.contacts h2, .contacts h5 {
+    margin: 10px 0;
+}

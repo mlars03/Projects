@@ -1,0 +1,57 @@
+h1{
+    font-family: monoton, monospace, sans-serif;
+    font-size: 60px;
+    font-weight: lighter;
+    color: rgb(170, 207, 206);
+    background-color: rgb(18, 43, 79);
+    text-align: center;
+    margin-bottom: 0px;
+    min-width: max-content;
+}
+
+main{
+    background-color: rgb(170, 207, 206);
+    min-width: fit-content;
+}
+
+.question{
+    font-style: italic;
+    font-family: monospace, sans-serif;
+}
+
+.answer{
+    font-style: italic;
+    font-family: monospace, sans-serif;
+}
+
+.qa{
+    height: 200px;
+    width: 400px;
+    border: 2px solid rgb(177, 36, 14);
+    display: inline-table;    
+}
+
+table{
+    font-family: 'IBM Plex Mono', sans-serif;
+    table-layout: fixed;
+    width: 800px;
+}
+
+#head{
+    font-family: 'IBM Plex Mono', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    width: 800px;
+}
+
+tr:nth-child(even){
+    background-color: bisque;
+}
+
+footer{
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+    background-color:darkblue;
+    color: aliceblue;
+    width: fit-content;
+}
